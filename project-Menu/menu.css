@@ -1,0 +1,67 @@
+nav {
+        font-family: Arial, sans-serif;
+     background-image: url(night.jpg);
+    color: #ca3429;
+    padding: 10px 20px;
+}
+.nav-links {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+.nav-links li:last-child {
+    margin-right: 0;
+}
+.nav-links li a {
+    text-decoration: dotted;
+      color: #c12f2f;
+    text-decoration: dashed;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-links li a img {
+    width: 30px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Add some spacing between image and text */
+}
+body{
+    align-items: center;
+    background-color: rgb(243, 219, 124);
+   
+
+}
+.item {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.item p {
+    margin: 0;
+    padding: 5px;
+}
+
+.item3 {
+    margin-bottom: 10px;
+}
+
+.item1 {
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
